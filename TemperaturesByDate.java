@@ -62,6 +62,7 @@ public class TemperaturesByDate {
         System.out.println(" days in July: " + avg);
         System.out.println();
 
+        // SD #4
         TemperatureSample ts = tempDB[500];
         System.out.println(ts.year);
     }

@@ -25,8 +25,5 @@ public class NestingLoops {
 // SD #2  The letters now cycle through A-E before the int iterates.
 //          Total lines of output is unchanged
 // SD #3  The AB loop now prints each number pair on it's own line
-<<<<<<< HEAD
-// SD #4  The println get printed once the inner loop condition is no longer true.  
-=======
+// SD #4  The println get printed once the inner loop condition is no longer true.
 // SD #4  The println get printed once the inner loop condition is no longer true
->>>>>>> 283d51bcf40ff52c9f5668afe0301a0acc456371

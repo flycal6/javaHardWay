@@ -11,8 +11,10 @@ class Card {
 public class PickACard {
     public static void main(String[] args) {
         Card[] deck = buildDeck();
-        // Uncomment the line below to view the full deck.
+
+        // SD #1
         shuffleDeck(deck);
+        // Uncomment the line below to view the full deck.
         displayDeck(deck);
 
         int chosen = (int)(Math.random()*deck.length);
@@ -53,7 +55,7 @@ public class PickACard {
         for (Card c: deck)
             System.out.println(c.value + "\t" + c);
     }
-
+    // SD #1
     public static void shuffleDeck(Card[] deck) {
         int i = 0;
         for (i=0; i<100; i++) {
